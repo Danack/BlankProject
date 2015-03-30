@@ -1,0 +1,24 @@
+{
+    "name": "foo/bar",
+
+    "description": "",
+
+    "require-dev": {
+        "mockery/mockery": "0.9.1",
+        "phpunit/phpunit": "4.4.5"
+    },
+
+    "require":{
+        "danack/console": "^2.6.0",
+        "intahwebz/weaver": "~0.4.5",
+        "intahwebz/configurator": "^0.2.2",
+        "rdlowrey/auryn": "^0.14.2",
+        "psr/log": "1.0.0",
+        "zendframework/zend-eventmanager": "2.3.7"
+    },
+    "autoload": {
+        "psr-0": {
+            "ProjectNamespace": "lib/"
+        }
+    }
+}
